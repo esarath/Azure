@@ -1,0 +1,24 @@
+Azure provides a suite of fully managed load-balancing solutions for your scenarios.
+
+If you are looking to do DNS based global routing and do not have requirements for Transport Layer Security (TLS) protocol termination ("SSL offload"), per-HTTP/HTTPS request or application-layer processing, review Traffic Manager.
+If you want to load balance between your servers in a region at the application layer, review Application Gateway.
+If you need to optimize global routing of your web traffic and optimize top-tier end-user performance and reliability through quick global failover, see Front Door.
+Your end-to-end scenarios may benefit from combining these solutions as needed. For an Azure load-balancing options comparison, see Overview of load-balancing options in Azure.
+
+
+
+======================================================================================================================
+
+Load balancing refers to evenly distributing load (incoming network traffic) across a group of backend resources or servers.
+
+Azure Load Balancer operates at layer 4 of the Open Systems Interconnection (OSI) model. It's the single point of contact for clients. Load balancer distributes inbound flows that arrive at the load balancer's front end to backend pool instances. These flows are according to configured load-balancing rules and health probes. The backend pool instances can be Azure Virtual Machines or instances in a Virtual Machine Scale Set.
+
+A public load balancer can provide outbound connections for virtual machines (VMs) inside your virtual network. These connections are accomplished by translating their private IP addresses to public IP addresses. Public Load Balancers are used to load balance internet traffic to your VMs.
+
+An internal (or private) load balancer is used where private IPs are needed at the frontend only. Internal load balancers are used to load balance traffic inside a virtual network. A load balancer frontend can be accessed from an on-premises network in a hybrid scenario.
+
+Diagram depicts public and internal load balancers directing traffic to web and business tiers.
+
+Figure: Balancing multi-tier applications by using both public and internal Load Balancer
+
+
