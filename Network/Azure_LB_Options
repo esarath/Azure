@@ -24,3 +24,17 @@ Diagram depicts public and internal load balancers directing traffic to web and 
 Figure: Balancing multi-tier applications by using both public and internal Load Balancer
 
 
+**************************
+LB Options and Arch model: 
+https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview
+https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+
+
+TM Works: 
+https://learn.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-cli
+https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-how-it-works
+
+
+Front DOOR:
+https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview
+
