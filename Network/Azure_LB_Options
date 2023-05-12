@@ -19,6 +19,8 @@ An internal (or private) load balancer is used where private IPs are needed at t
 
 Diagram depicts public and internal load balancers directing traffic to web and business tiers.
 
+
+
 Figure: Balancing multi-tier applications by using both public and internal Load Balancer
 
 
