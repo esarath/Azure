@@ -7,7 +7,9 @@ As businesses increasingly rely on digital technologies to operate, web traffic 
 Understanding the Key Differences
 Load balancer, reverse proxy and API gateway are all technologies used to optimize and manage web traffic. However, they vary in their function and use cases. Understanding the differences between them is critical to choosing the right solution for your infrastructure needs.
 
-Load Balancer Overview
+
+#Load Balancer Overview:
+=============================
 Load balancer is a hardware or software solution that distributes incoming traffic across multiple servers to avoid overloading any one server. This improves server performance, ensures maximum uptime, and makes it easier to scale your infrastructure.
 
 For example, suppose you have an e-commerce website that receives a large number of visitors during holiday sales. In this case, a load balancer can help distribute the incoming traffic across multiple servers, ensuring that the website remains responsive and available to customers.
